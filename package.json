@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
@@ -36,6 +36,9 @@
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-fontawesome": "~0.2.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "12.16.1"
   },
   "description": "## Project setup ``` npm install ```",
   "main": ".eslintrc.js",
